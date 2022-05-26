@@ -1,11 +1,14 @@
-﻿namespace pcso_rverdera;
+﻿using pcso_rverdera.View;
+
+namespace pcso_rverdera;
 
 public partial class App : Application
 {
-	public App()
-	{
-		InitializeComponent();
+    public App()
+    {
+        InitializeComponent();
 
-		MainPage = new AppShell();
-	}
+        MainPage = new AppShell();
+        Shell.Current.GoToAsync("//Login");
+    }
 }

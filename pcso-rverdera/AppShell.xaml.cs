@@ -1,4 +1,5 @@
-﻿namespace pcso_rverdera;
+﻿
+namespace pcso_rverdera;
 
 public partial class AppShell : Shell
 {
